@@ -7,7 +7,7 @@ def my_each(numbers)
 
   i = i + 1 
  end 
- 
+ numbers
  
  
 end
