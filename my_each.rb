@@ -3,8 +3,10 @@ def my_each(numbers)
  
  while i > numbers.length 
  
- 
- 
+ yield numbers [i]
+
+  i = i + 1 
+ end 
  
  
  
